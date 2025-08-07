@@ -22,7 +22,7 @@
     "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.0",
-    "zod": "^4.0.14"
+    "zod": "^4.0.15"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
@@ -32,6 +32,7 @@
     "@types/http-status": "^0.2.30",
     "@types/http-status-codes": "^1.2.0",
     "@types/jsonwebtoken": "^9.0.10",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.2"
   }
 }

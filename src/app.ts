@@ -1,9 +1,9 @@
 import express, { Application, Request, Response } from "express";
 import cors from "cors";
 import router from "./routes";
-import globalErrorHandler from "./middlewares/globalErrorHandler";
 import cookieParser from 'cookie-parser';
 import notFound from "./middlewares/NotFound";
+import globalErrorHandler from "./middlewares/globalErrorHanlder";
 
 
 // express

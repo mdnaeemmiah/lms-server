@@ -5,7 +5,7 @@ import { IUser, UserModel } from './user.interface';
 import config from '../../config';
 import bcrypt from 'bcrypt';
 import { model } from 'mongoose';
-import {  UserStatus } from './user.contant';
+import {  UserStatus } from './user.constant';
 
 const UserSchema = new Schema<IUser>(
   {

@@ -2,9 +2,9 @@
 
 import { Router } from "express";
 import { UserValidation } from "../user/user.validation";
-import { AuthControllers } from "./auth.controllers";
 import { AuthValidation } from "./auth.validation";
 import validateRequest from "../../../middlewares/validateRequest";
+import { AuthControllers } from "./auth.contstant";
 
 
 const authRouter = Router();

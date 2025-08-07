@@ -9,7 +9,7 @@ import config from '../../config'
 import { TLoginUser } from './auth.interface'
 import { StatusCodes } from 'http-status-codes'
 import { createToken, verifyToken } from './auth.utils'
-import AppError from '../../../errors/AppError';
+import AppError from '../../../errors/App.Error';
 
 const register = async (payload: IUser) => {
   const user = new User(payload);
